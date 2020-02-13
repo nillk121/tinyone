@@ -1,0 +1,181 @@
+/* спецификация */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+    display: block;
+}
+
+/* header */ 
+
+.header {
+    background: #fcdb00;
+    padding-top: 52px;
+    padding-bottom: 150px;
+}
+
+.menu {
+    margin-bottom: 10px;
+}
+
+.menu__item {
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 63px;
+}
+
+.menu__item a {
+    color: #010101;
+}
+
+.offer {
+    margin-top: 130px;
+}
+
+.offer__title {
+   font-size: 32px;
+   font-weight: 700;
+   margin-bottom: 27px; 
+}
+
+.offer__intro {
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 1.3em;
+}
+
+.offer__text {
+    width: 400px;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+
+.offer__app__menu__item {
+    font-size: 42px;
+    margin-right: 50px;
+}
+
+.offer__app__menu__item a {
+    color: #000;
+    -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+         -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
+
+.offer__app__menu__item a:hover {
+    color: #ac2d2d;
+}
+
+.ipad {
+    margin-top: 70px;
+}
+
+.ipad__img {
+    margin: 0 auto;
+}
+
+/* features */
+
+.features {
+    margin-top: 117px;    
+}
+
+.features__title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.features__text {
+    display: block;
+    margin: 0 auto;
+    width: 740px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.features__elm {
+    margin-top: 95px;
+}
+
+.features__icon {
+    font-size: 50px;
+    color: #000;
+    margin-right: 40px;
+}
+
+.features__info__title {
+    font-weight: 700;
+}
+
+/* subcrible */
+
+.subcrible {
+    background: #000;
+}
+
+.subcrible__title {
+    color: #FCDB00;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.subcrible__text {
+    color: #484848;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__input {
+    background: #fff;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 5px;
+    width: 580px;
+    padding: 14px 0;
+    margin-right:21px;
+    border: 0;
+    padding-left:23px;
+    outline: none;
+}
+
+.form__btn {
+    font-family: 'PT Sans', sans-serif;
+    background: #fcdb00;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 126px;
+    border: 0;
+    padding: 14px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+/* footer */
+
+.footer {
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.footer__info {
+    text-align: center;
+    color: #d3d3d3;
+    font-size: 16px;
+}
